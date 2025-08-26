@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastering JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mastering JavaScript Fundamentals</h1>
+
+  <!-- Part 1: Input for variables & conditionals -->
+  <section>
+    <h2>Part 1: Basics</h2>
+    <input type="number" id="ageInput" placeholder="Enter your age">
+    <button onclick="checkAge()">Check Age</button>
+    <p id="ageResult"></p>
+  </section>
+
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>Part 2: Functions</h2>
+    <button onclick="showGreeting('Juliet')">Show Greeting</button>
+    <p id="greetingResult"></p>
+
+    <button onclick="calculateTotal(10, 5)">Calculate Total (10 + 5)</button>
+    <p id="totalResult"></p>
+  </section>
+
+  <!-- Part 3: Loops -->
+  <section>
+    <h2>Part 3: Loops</h2>
+    <button onclick="listFruits()">Show Fruits</button>
+    <ul id="fruitList"></ul>
+
+    <button onclick="countdown()">Start Countdown</button>
+    <p id="countdownResult"></p>
+  </section>
+
+  <!-- Part 4: Document Object Model Manipulation -->
+  <section>
+    <h2>Part 4: Document Object Model Manipulation</h2>
+    <button id="toggleBtn">Toggle Highlight</button>
+    <p id="toggleText">Watch me change!</p>
+
+    <button id="addItemBtn">Add List Item</button>
+    <ul id="dynamicList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
